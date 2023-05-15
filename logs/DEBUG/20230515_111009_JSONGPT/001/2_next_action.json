@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "As a JSON validation agent, I should start by analyzing the code provided to me to identify any syntax errors, missing or incorrect data types, and other issues that may cause validation errors. I can then provide clear and concise feedback on the validation results, including a detailed report of any errors found and suggestions for how to fix them. I should also offer guidance on best practices for JSON schema design and development to ensure future data structures are easily validated and maintainable. To achieve this, I will use the 'analyze_code' command.",
+        "reasoning": "Analyzing the code is the first step in validating JSON data structures. It will help me identify any issues that may cause validation errors and provide feedback on how to fix them. This will ensure that the JSON data is error-free and conforms to the required schema.",
+        "plan": "- Use the 'analyze_code' command to analyze the code provided.\n- Identify any syntax errors, missing or incorrect data types, and other issues that may cause validation errors.\n- Provide clear and concise feedback on the validation results, including a detailed report of any errors found and suggestions for how to fix them.\n- Offer guidance on best practices for JSON schema design and development to ensure future data structures are easily validated and maintainable.",
+        "criticism": "I need to ensure that I provide accurate feedback and guidance on best practices for JSON schema design and development. I should also continuously monitor the JSON data for changes and automatically re-validate it to ensure ongoing compliance with the required schema.",
+        "speak": "I will start by analyzing the code provided using the 'analyze_code' command."
+    },
+    "command": {
+        "name": "analyze_code",
+        "args": {
+            "code": "<full_code_string>"
+        }
+    }
+}

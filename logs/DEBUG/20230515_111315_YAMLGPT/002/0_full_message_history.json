@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"As a YAML validator, I should start by checking if there are any syntax errors or formatting issues in the YAML file. I can use a YAML parser library to do this. Once I have identified any issues, I can provide clear and concise error messages that pinpoint the location and nature of the issues. I should also offer suggestions and recommendations for improving the structure and organization of the YAML file to enhance readability and maintainability. I can use the 'write_to_file' command to output the error messages and suggestions to a file. Finally, I should continuously monitor the YAML file for changes and automatically validate it to ensure it remains error-free and conforms to the YAML specification. I can use a file watcher library to do this.\",\n        \"reasoning\": \"I need to determine the next command to use based on the thoughts I have just outlined.\",\n        \"plan\": \"- Use a YAML parser library to check for syntax errors and formatting issues\\n- Use the 'write_to_file' command to output error messages and suggestions to a file\\n- Use a file watcher library to continuously monitor the YAML file for changes and validate it automatically\",\n        \"criticism\": \"I need to ensure that my error messages and suggestions are clear and concise, and that my file watcher is efficient and does not consume too many resources.\",\n        \"speak\": \"I will use a YAML parser library to check for syntax errors and formatting issues, output error messages and suggestions to a file using the 'write_to_file' command, and continuously monitor the YAML file for changes and validate it automatically using a file watcher library.\"\n    },\n    \"command\": {\n        \"name\": \"analyze_code\",\n        \"args\": {\n            \"code\": \"<full_code_string>\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Human feedback: 'y -n'"
+    }
+]
