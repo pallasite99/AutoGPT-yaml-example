@@ -1,5 +1,9 @@
 # AutoGPT-yaml-example
-An example used to demonstrate capabilities of AutoGPT as a cli builder tool from scratch 
+An example used to demonstrate capabilities of AutoGPT as a cli builder tool from scratch
+
+### Documentation
+
+[https://docs.agpt.co/]
 
 ### In-action (using autogpt docker image)
 
